@@ -1,0 +1,64 @@
+? Excel pivot table—sums, counts, minimums and maximums
+? JOINS ÖĞREN
+
+SQL COMMANDS:
+
+-------->SHOW DATABASES;or ıt could be show databases; 
+
+
+-------->CREATE DATABASE <database_name>; or ıt could be createdatadases<database_name>;
+AFTER THAT WE HATE TO SHOW IT WITH THE COMMAD OF SHOW DATABASES;
+
+
+-------->
+1)To drop a database:
+
+DROP DATABASE <database-name>;
+
+2)To use a database:
+
+USE <database-name>;
+
+drop databases and create databases are opposite to each other!
+
+SQL NUMERIC TYPE:
+
+1.INTEGER or INT(whole number ıt could be negatıve though)
+2.SMALLINT ,TINYINT,MEDIUMINT,BIGINT,
+3.DECIMAL or DEC or FIXED
+4.NUMERIC
+5.FLOAT
+6.REAL
+7.DOUBLE
+8.PRECISION
+9.BIT
+
+SQL STRING(text)TYPE:
+
+1.CHAR,VARCHAR(variable length char)
+2.BINARY,VARBINARY
+3.BLOB,TINYBLOB,MEDIUMBLOB,LONGBLOB
+4.TEXT,TINYTEXT,MEDIUMTEXT,LONGTEXT
+5.ENUM
+
+SQL DATE TYPE:
+
+1.DATE
+2.TIMESTAMP(fsp)
+3.TIME(fsp)
+4.YEAR
+
+****Creating Tables****
+
+CREATE TABLE cats (
+    name VARCHAR(50),
+    age INT
+);
+ 
+CREATE TABLE dogs (
+    name VARCHAR(50),
+    breed VARCHAR(50),
+    age INT
+);
+
+

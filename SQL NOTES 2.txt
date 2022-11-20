@@ -1,0 +1,11 @@
+SHOW tables;
+
+SHOW COLUMNS FROM cats;
+
+DESC cats;
+
+1.To drop a table:
+DROP TABLE <table-name>;
+
+2.To specifically drop the cats table:
+DROP TABLE cats;
